@@ -28,7 +28,7 @@ public class Venta {
 
     public double getTotal() { return total; }
     public void setTotal(double total) { this.total = total; }
-
+    //comentario
     public List<DetalleVentaEntidad> getDetalles() { return detalles; }
     public void setDetalles(List<DetalleVentaEntidad> detalles) { this.detalles = detalles; }
 }
