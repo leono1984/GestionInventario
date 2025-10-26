@@ -11,7 +11,7 @@ public class Venta {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+    //ESTA ES UNA CLASE - ENTIDAD
     private LocalDate fecha = LocalDate.now(); // ✅ evita nulls
 
     private double total = 0.0; // ✅ valor inicial
